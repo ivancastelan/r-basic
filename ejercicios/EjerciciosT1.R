@@ -41,7 +41,7 @@ opBasica(3,2)
 com <- 2+5i
 class(com)
 
-round(complex(pi,sqrt(2)),2)
+round(complex(pi,sqrt (2)),2)
 
 round(sqrt(as.complex(-5)),3)
  
