@@ -44,4 +44,9 @@ class(com)
 round(complex(pi,sqrt (2)),2)
 
 round(sqrt(as.complex(-5)),3)
- 
+
+#La raiz cuadrada devuelve de las dos soluciones la positiva. Si se quiere obtenerla otra,
+#hay que multiplicar por -1
+sqrt(3+2i)
+exp(3+2i)
+sin(3+2i)
