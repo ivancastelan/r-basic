@@ -56,5 +56,17 @@ rm(producto)
 #Para borrar todas las variables, limpiar el entorno
 rm(list = ls())
 
+#usar numeros coplejos
+sqrt(-5)
+sqrt(as.complex(-5))
 
+sqrt(3+1i)
+exp(3-2i)
+sin(3-2i)
+cos(3-2i)
+
+z1 <- complex(pi,sqrt(2))
+Mod(z1)
+
+Arg(z1)
 
